@@ -1,0 +1,63 @@
+=========== INSERTION PHASE ===========
+Inserted 105 at index 5
+Table state after inserting 105:
+  [0] -> EMPTY
+  [1] -> EMPTY
+  [2] -> EMPTY
+  [3] -> EMPTY
+  [4] -> EMPTY
+  [5] -> 105 
+  [6] -> EMPTY
+  [7] -> EMPTY
+  [8] -> EMPTY
+  [9] -> EMPTY
+--------------------------------------
+Inserted 210 at index 0
+Table state after inserting 210:
+  [0] -> 210 
+  [1] -> EMPTY
+  [2] -> EMPTY
+  [3] -> EMPTY
+  [4] -> EMPTY
+  [5] -> 105 
+  [6] -> EMPTY
+  [7] -> EMPTY
+  [8] -> EMPTY
+  [9] -> EMPTY
+--------------------------------------
+Collision! Key 315 hashes to index 5 (already occupied)
+Inserted 315 at index 5
+Table state after inserting 315:
+  [0] -> 210 
+  [1] -> EMPTY
+  [2] -> EMPTY
+  [3] -> EMPTY
+  [4] -> EMPTY
+  [5] -> 315 105 
+  [6] -> EMPTY
+  [7] -> EMPTY
+  [8] -> EMPTY
+  [9] -> EMPTY
+--------------------------------------
+Collision! Key 420 hashes to index 0 (already occupied)
+Inserted 420 at index 0
+Table state after inserting 420:
+  [0] -> 420 210 
+  [1] -> EMPTY
+  [2] -> EMPTY
+  [3] -> EMPTY
+  [4] -> EMPTY
+  [5] -> 315 105 
+  [6] -> EMPTY
+  [7] -> EMPTY
+  [8] -> EMPTY
+  [9] -> EMPTY
+--------------------------------------
+Collision! Key 525 hashes to index 5 (already occupied)
+Inserted 525 at index 5
+Table state after inserting 525:
+  [0] -> 420 210 
+  [1] -> EMPTY
+  [2] -> EMPTY
+  [3] -> EMPTY
+  [4] ->
